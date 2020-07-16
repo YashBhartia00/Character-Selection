@@ -16,7 +16,6 @@ public class CharacterSelect : MonoBehaviour
     void Start()
     {
         
-        //initialize all this in inspector but it's bugging
         characterOptions = new Character[6];
         characterOptions[0] = new Character{characterName = "maxSheet",
                                             maxHealth = 200, 
